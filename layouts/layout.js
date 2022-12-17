@@ -43,7 +43,7 @@ const Layout = ({
                   width={24}
                   height={24}
                   // src={`https://gravatar.com/avatar/${emailHash}`}
-                  src={'../public/favicon.jpg'}
+                  src={BLOG.avatar}
 
                   className="rounded-full"
                 />
