@@ -9,7 +9,6 @@ import { useRouter } from 'next/router'
 import Comments from '@/components/Comments'
 import pic from '@/public/favicon.png'
 
-
 const mapPageUrl = id => {
   return 'https://www.notion.so/' + id.replace(/-/g, '')
 }
@@ -44,7 +43,6 @@ const Layout = ({
                   alt={BLOG.author}
                   width={24}
                   height={24}
-                  // src={`https://gravatar.com/avatar/${emailHash}`}
                   src={pic}
                   className="rounded-full"
                 />
