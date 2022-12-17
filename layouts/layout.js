@@ -43,7 +43,7 @@ const Layout = ({
                   width={24}
                   height={24}
                   // src={`https://gravatar.com/avatar/${emailHash}`}
-                  src={`https://toppng.com/uploads/preview/helping-sells-radio-apple-podcast-icon-white-11563429116rstxsqsikw.png`}
+                  src='https://toppng.com/uploads/preview/helping-sells-radio-apple-podcast-icon-white-11563429116rstxsqsikw.png'
 
                   className="rounded-full"
                 />
