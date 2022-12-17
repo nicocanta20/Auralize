@@ -4,7 +4,7 @@ const BLOG = {
   email: 'Auralizeinfo@gmail.com',
   link: 'https://auralize-beryl.vercel.app',
   description: 'AI-Powered Podcast Curation',
-  lang: ['en-US','es-ES'], // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
