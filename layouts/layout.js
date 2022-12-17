@@ -39,11 +39,11 @@ const Layout = ({
             <div className="flex mb-4">
               <a href={BLOG.socialLink || '#'} className="flex">
                 <Image
-                  alt={`https://toppng.com/uploads/preview/helping-sells-radio-apple-podcast-icon-white-11563429116rstxsqsikw.png`}
+                  alt={BLOG.author}
                   width={24}
                   height={24}
                   // src={`https://gravatar.com/avatar/${emailHash}`}
-                  src={BLOG.avatar}
+                  src={`https://toppng.com/uploads/preview/helping-sells-radio-apple-podcast-icon-white-11563429116rstxsqsikw.png`}
 
                   className="rounded-full"
                 />
