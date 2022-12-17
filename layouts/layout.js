@@ -7,6 +7,7 @@ import formatDate from '@/lib/formatDate'
 import { useLocale } from '@/lib/locale'
 import { useRouter } from 'next/router'
 import Comments from '@/components/Comments'
+import pic from './public/favicon.png'
 
 const mapPageUrl = id => {
   return 'https://www.notion.so/' + id.replace(/-/g, '')
@@ -43,8 +44,7 @@ const Layout = ({
                   width={24}
                   height={24}
                   // src={`https://gravatar.com/avatar/${emailHash}`}
-                  src='https://toppng.com/uploads/preview/helping-sells-radio-apple-podcast-icon-white-11563429116rstxsqsikw.png'
-
+                  src={pic}
                   className="rounded-full"
                 />
                 <p className="ml-2 md:block">{BLOG.author}</p>
