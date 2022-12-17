@@ -38,15 +38,15 @@ const Layout = ({
           <nav className="flex mt-7 items-start text-gray-500 dark:text-gray-400">
             <div className="flex mb-4">
               <a href={BLOG.socialLink || '#'} className="flex">
-                {/* <Image
+                <Image
                   alt={BLOG.author}
                   width={24}
                   height={24}
                   // src={`https://gravatar.com/avatar/${emailHash}`}
-                  src="../public/favicon.png"
+                  src={'../public/favicon.jpg'}
 
                   className="rounded-full"
-                /> */}
+                />
                 <p className="ml-2 md:block">{BLOG.author}</p>
               </a>
               <span className="block">&nbsp;/&nbsp;</span>
