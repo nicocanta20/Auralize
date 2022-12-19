@@ -5,7 +5,7 @@ const BLOG = {
   link: 'https://auralize-beryl.vercel.app',
   description: 'AI-Powered Podcast Curation',
   avatar: '/public/favicon.jpg',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'es', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -15,7 +15,7 @@ const BLOG = {
   postsPerPage: 7,
   sortByDate: true,
   showAbout: false,
-  showArchive: true,
+  showArchive: false,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/N1co_c',
@@ -23,7 +23,7 @@ const BLOG = {
     keywords: ['Website', 'Notion','Podcast','AI','Curation'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
+  notionPageId: process.env.NOTION_PAGE_ID, // e.g. 'b6e2c7e0-6d8e-4f6c-8f4f-8d5e3eef7c7f'
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
     provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
